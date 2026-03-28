@@ -1,2 +1,9 @@
-// Scaffold for the Prisma Schema and Client Upgrade sample repo.
-export {};
+export const db = {
+  name: "Prisma Schema and Client Upgrade",
+  connected: false,
+  async query() {
+    return [];
+  },
+};
+
+export default db;
